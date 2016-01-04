@@ -2,6 +2,7 @@ var app = require('app');
 var BrowserWindow = require('browser-window');
 require('crash-reporter').start();
 var mainWindow = null;
+app.commandLine.appendSwitch('proxy-server', 'localhost:3128');
 
 const electron = require('electron');
 const globalShortcut = electron.globalShortcut;
