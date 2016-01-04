@@ -38,7 +38,7 @@ if (!ret) {
 
 app.on('will-quit', function() {
   // Unregister a shortcut.
-  globalShortcut.unregister('ctrl+w');
+  globalShortcut.unregister('ctrl+z');
   globalShortcut.unregister('ctrl+q');
   // Unregister all shortcuts.
   globalShortcut.unregisterAll();
