@@ -21,7 +21,7 @@ app.on('ready', function() {
   mainWindow.setAlwaysOnTop(true);
   mainWindow.loadUrl('file://'+__dirname+'/index.html');
   // Emitted when the window is closed.
-  var ret = globalShortcut.register('ctrl+w', function() {
+  var ret = globalShortcut.register('ctrl+z', function() {
     app.quit();
   });
 if (!ret) {
