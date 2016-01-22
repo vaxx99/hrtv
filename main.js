@@ -14,7 +14,7 @@ app.on('window-all-closed', function() {
 
 
 app.on('ready', function() {
-  mainWindow = new BrowserWindow({width: 578, height: 324, darkTheme:true,frame: true, icon: 'hrtv.bmp'});
+  mainWindow = new BrowserWindow({width: 578, height: 324, darkTheme:true, frame: true, 'icon': 'hrtv.bmp', 'skip-taskbar': true});
   // frame: false
   mainWindow.setMenuBarVisibility(false);
   mainWindow.setTitle("Hromadske.tv");

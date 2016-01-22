@@ -4,6 +4,6 @@
   "main": "./main.js",
   "scripts": {
     "start": "electron .",
-    "package":"electron-packager ~/.elc/hrtv hrtv --platform=linux --arch=ia32 --icon=./fsto.ico --ignore=\"node_modules/(electron-packager|electron-prebuilt)\" --version=0.36.1 --overwrite"
+    "pack32":"electron-packager ~/.elc/hrtv hrtv --platform=linux --arch=ia32 --version=0.36.4 --overwrite --out ~/.elc/apps"
 }
 }
